@@ -28,7 +28,7 @@ export async function  scrapeAndStoreProduct(productUrl:string) {
                 priceHistory:updatedPriceHistory,
                 lowestPrice: getLowestPrice(updatedPriceHistory),
                 highestPrice: getHighestPrice(updatedPriceHistory),
-                average: getAveragePrice(updatedPriceHistory),
+                averagePrice: getAveragePrice(updatedPriceHistory),
 
             }
         }
